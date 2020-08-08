@@ -163,3 +163,7 @@ pub use module::ModuleRef;
 #[cfg(feature = "internals")]
 #[deprecated(note = "this type is volatile and may change")]
 pub use utils::StaticVec;
+
+#[cfg(feature = "internals")]
+#[deprecated(note = "this type is volatile and may change")]
+pub use any::Variant;
